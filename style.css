@@ -169,6 +169,11 @@ section {
   height: 80vh;
 }
 
+.profileimg {
+  display: flex;
+  margin-right: 100px;
+}
+
 .section__pic-container {
   display: flex;
   height: 400px;
@@ -187,6 +192,7 @@ section {
 
 .section__text__p1 {
   text-align: center;
+  
 }
 
 .section__text__p2 {
@@ -197,6 +203,7 @@ section {
 .title {
   font-size: 3rem;
   text-align: center;
+  margin-bottom: 30px;
 }
 
 #socials-container {
@@ -267,6 +274,7 @@ section {
   position: relative;
 }
 
+
 .about-containers {
   gap: 2rem;
   margin-bottom: 2rem;
@@ -284,6 +292,8 @@ section {
 }
 
 .about-pic {
+  height:500px;
+  width:400px;
   border-radius: 2rem;
 }
 
@@ -318,6 +328,11 @@ section {
 
 #experience {
   position: relative;
+}
+
+.explore {
+  text-align: center;
+  margin-top: 50px;
 }
 
 .experience-sub-title {
